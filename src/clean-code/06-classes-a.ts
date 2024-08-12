@@ -1,4 +1,4 @@
-//NOT DRY
+//Forma larga
 (() => {
 	type Gender = 'M' | 'F';
 
@@ -18,7 +18,7 @@
 	console.log({ newPerson });
 })();
 
-// DRY
+// Forma Corta
 (() => {
 	type Gender = 'M' | 'F';
 
